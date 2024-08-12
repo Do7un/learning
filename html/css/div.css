@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    resize: initial;
 }
 
 body, 
@@ -9,10 +10,9 @@ input {
     font-family: "monospace", sans-serif;
 }
 
-main {
+main{
     width: 100%;
     min-height: 100vh;
-    overflow: hidden;
     background-color: rgba(212, 165, 249, 1) ;
     padding: 2rem;
     display: flex;
@@ -23,7 +23,7 @@ main {
 .box {
     position: relative;
     width: 100%;
-    max-width: 1020px;
+    max-width: 10201px;
     height: 640px;
     background-color:rgba(212, 165, 249, 1);
     border-radius: 3.3rem;
@@ -58,7 +58,7 @@ main {
     height: 500px ;
     background: rgb(242, 241, 243);
     border-radius: 3.3rem;
-    margin-top: 5px;
+    margin-top: 7px;
     box-shadow: 0px 10px ;
     padding-top: 5%;
 }
@@ -119,3 +119,13 @@ main {
 .btn:hover {
     background-color: rgb(123, 85, 121);
 }
+
+.text2 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 14px;
+    position: relative;
+}
+
+
